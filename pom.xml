@@ -84,7 +84,8 @@
 					<suiteXmlFile>src/test/resources/testng.xml</suiteXmlFile>
 				</suiteXmlFiles>
 			</configuration>
-		</execution>
+			 <configuration> <skipTests>true</skipTests> 
+			</configuration>
 <!-- plus two more overridden executions -->
 	     </executions>
      </plugin>
