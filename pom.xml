@@ -80,15 +80,13 @@
 		<execution>
 			<id>execution-name</id>
 			<configuration combine.self="override">
+				 <skipTests>true</skipTests> 
 				<suiteXmlFiles>
 					<suiteXmlFile>src/test/resources/testng.xml</suiteXmlFile>
 				</suiteXmlFiles>
 			</configuration>
-			 <configuration> <skipTests>true</skipTests> 
-			</configuration>
-<!-- plus two more overridden executions -->
+		     </execution>
 	     </executions>
-     </plugin>
      <plugin>
          <groupId>org.apache.maven.plugins</groupId>
          <artifactId>maven-compiler-plugin</artifactId>
