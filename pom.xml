@@ -26,12 +26,13 @@
   </properties>
   
   <dependencies>
-	  <dependency>
-  <groupId>org.owasp</groupId>
-  <artifactId>dependency-check-maven</artifactId>
-  <version>6.1.6</version>
-  <type>maven-plugin</type>
-	 </dependency>
+	<!-- https://mvnrepository.com/artifact/org.owasp/dependency-check-maven -->
+<dependency>
+    <groupId>org.owasp</groupId>
+    <artifactId>dependency-check-maven</artifactId>
+    <version>6.3.2</version>
+</dependency>
+
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
