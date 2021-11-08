@@ -55,7 +55,7 @@
     <snapshotRepository>
        <id>nexus</id>
       <!-- <url>http://35.200.146.132:8081/nexus/content/repositories/snapshots</url> -->
-	    <url>http://35.200.146.132:8081/nexus/content/repositories/snapshots%3c</url>
+	    <url>http://35.200.146.132:8081/repository/maven-snapshots/</url>
     </snapshotRepository>
     <repository>
       <id>nexus</id>
